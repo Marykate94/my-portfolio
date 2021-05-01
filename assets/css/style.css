@@ -12,14 +12,14 @@ header {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    background-color: gray;
+    background-color: pink;
     padding: 15px 15px 15px 0px;
 }
 
 header h1 {
     font-size: 48px;
-    color:darkslategrey;
-    background-color: #89cff0;
+    color: white;
+    background-color: deeppink;
 }
 
 header nav ul {
@@ -34,7 +34,7 @@ header nav ul li a {
     padding: 10px 15px;
     display: flex;
     flex-wrap: wrap;
-    color: #89cff0;
+    color: white;
     font-size: 25px;
 }
 
@@ -50,17 +50,17 @@ header nav ul li a {
 }
 
 .hero h2 {
-    background-color: #89cff0;
-    color: darkslategray;
+    background-color: pink;
+    color: white;
     align-items: flex-end;
     display: flex;
     text-align: right;
+    padding: 5px;
 }
 
 /* apply styles to about me section */
 .about-me {
     padding: 40px;
-    background-color:deeppink;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -73,11 +73,12 @@ header nav ul li a {
 
 .about-me p {
     text-align: left;
-    border-left: solid 2px black;
+    border-left: solid 2px deeppink;
     display: inline-block;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    
 } 
 /* apply styles to work section */
 .work {
