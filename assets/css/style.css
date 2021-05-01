@@ -48,13 +48,17 @@ header nav ul li a {
     background-attachment: fixed;
     padding: 75px;
 }
-
+.hero img {
+    width: 30%;
+    border-radius: 25px;
+}
 .hero h2 {
     background-color: pink;
     color: white;
     display: flex;
-    padding: 5px;
+    padding: 10px;
     margin-left: 450px;
+    border-radius: 15px;
 }
 
 /* apply styles to about me section */
@@ -114,14 +118,36 @@ header nav ul li a {
     flex-flow: row wrap;
 }
 
+#project-1 {
+    border: solid 5px deeppink;
+    position: relative;
+    margin: 15px;
+    flex: 1 100%;
+    display: flex;
+    flex-flow: column;
+  }
+
 .img-links {
+    border: solid 5px deeppink;
+    position: relative;
+    margin: 15px;
+    flex: 40%;
+    display: flex;
+    flex-flow: column;
+
+  }
+
+
+/* .img-links {
     border: solid 5px deeppink;
     position: relative;
     margin: 15px;
     width: 100%; 
     display: flex; 
     flex-flow: column; 
-}
+} */
+
+
 
 .bottom-left {
     position: absolute;
