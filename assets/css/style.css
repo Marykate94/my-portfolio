@@ -81,14 +81,14 @@ header nav ul li a {
     
 } 
 /* apply styles to work section */
-.work {
+.work-examples {
     display: flex;
     background-color: gold;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.work h2 {
+.work-examples h2 {
     text-align: right;
     padding: 30px;
 }
