@@ -46,16 +46,15 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     background-attachment: fixed;
-    padding: 50px;
+    padding: 75px;
 }
 
 .hero h2 {
     background-color: pink;
     color: white;
-    align-items: flex-end;
     display: flex;
-    text-align: right;
     padding: 5px;
+    margin-left: 450px;
 }
 
 /* apply styles to about me section */
@@ -119,9 +118,9 @@ header nav ul li a {
     border: solid 5px deeppink;
     position: relative;
     margin: 15px;
-    width: 40%;
-    display: flex;
-    flex-flow: column;
+    width: 100%; 
+    display: flex; 
+    flex-flow: column; 
 }
 
 .bottom-left {
