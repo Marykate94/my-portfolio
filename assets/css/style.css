@@ -54,10 +54,11 @@ header nav ul li a {
     color: darkslategray;
     align-items: flex-end;
     display: flex;
+    text-align: right;
 }
 
 /* apply styles to about me section */
-#about-me {
+.about-me {
     padding: 40px;
     background-color:deeppink;
     justify-content: space-between;
@@ -65,21 +66,58 @@ header nav ul li a {
     flex-direction: row;
 }
 
-#about-me h2 {
+.about-me h2 {
     padding: 15px;
     text-align: right;
 }
 
-#about-me p {
+.about-me p {
     text-align: left;
     border-left: solid 2px black;
     display: inline-block;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-}
+} 
 /* apply styles to work section */
+.work {
+    display: flex;
+    background-color: gold;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.work h2 {
+    text-align: right;
+    padding: 15px;
+}
+
+.projects {
+    text-align: left;
+    border-left: solid 2px black;
+    display: inline-block;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img-links {
+    border: solid 5px purple;
+    position: relative;
+    margin: 10px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: purple;
+}
 
 /* apply styles to contact me section */
 
