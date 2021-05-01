@@ -123,10 +123,10 @@ header nav ul li a {
 /* apply styles to contact me section */
 .contact {
     padding: 40px;
-    background-color:deeppink;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .contact h2 {
@@ -135,13 +135,27 @@ header nav ul li a {
 }
 
 .contact-links {
-    border-left: solid 2px black;
+    /* border-left: solid 2px black;
     /* display: inline-block; */
-    padding: 20px;
+    /* padding: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */ 
+    border-left: solid 2px deeppink;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 } 
+
+.reach-me {
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 25px;
+}
 /* 
 list-style: none;
     flex-wrap: wrap;
