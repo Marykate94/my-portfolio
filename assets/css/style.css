@@ -120,6 +120,27 @@ header nav ul li a {
 }
 
 /* apply styles to contact me section */
+.contact {
+    padding: 40px;
+    background-color:deeppink;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact h2 {
+    padding: 15px;
+    text-align: right;
+}
+
+.contact-links {
+    text-align: left;
+    border-left: solid 2px black;
+    display: inline-block;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+} 
 
 
 /* resume section?? */
