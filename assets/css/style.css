@@ -90,23 +90,23 @@ header nav ul li a {
 
 .work h2 {
     text-align: right;
-    padding: 15px;
+    padding: 30px;
 }
 
 .projects {
     text-align: left;
-    border-left: solid 2px black;
+    border-left: solid 2px deeppink;
     display: inline-block;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+
 }
 
 .img-links {
-    border: solid 5px purple;
+    border: solid 5px deeppink;
     position: relative;
-    margin: 10px;
+    margin: 15px;
 }
 
 .bottom-left {
@@ -117,12 +117,12 @@ header nav ul li a {
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: purple;
+    background-color: deeppink;
 }
 
 /* apply styles to contact me section */
 .contact {
-    padding: 40px;
+    padding: 20px;
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
@@ -130,7 +130,7 @@ header nav ul li a {
 }
 
 .contact h2 {
-    padding: 15px;
+    padding: 10px;
     text-align: right;
 }
 
