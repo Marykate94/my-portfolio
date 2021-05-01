@@ -20,6 +20,8 @@ header h1 {
     font-size: 48px;
     color: white;
     background-color: deeppink;
+    border-radius: 10px;
+    padding:10px;
 }
 
 header nav ul {
