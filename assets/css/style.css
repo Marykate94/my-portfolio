@@ -136,8 +136,17 @@ header nav ul li a {
     flex: 40%;
     display: flex;
     flex-flow: column;
-
   }
+
+#project-3 {
+    background-image: url('../images/pencils.jpeg');
+    background-size: contain;
+}
+
+#project-4 {
+    background-image: url('../images/project-proposal-76f0a3e70715ab89442aa753fee01c842643fd3567e49c6083e0664f5b74bbf3.png');
+    background-size: contain;
+}
 
 
 /* .img-links {
