@@ -8,6 +8,7 @@ To showcase my work and provide information about myself.
 *CSS
 
 ## Website
+https://marykate94.github.io/my-portfolio/
 
 ## Contribution
 Made by Marykate Smith
