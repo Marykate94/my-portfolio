@@ -45,10 +45,10 @@ header nav ul li a {
     background-image: url("../images/Cool-Background-Free.jpeg");
     background-size: cover;
     background-position: center;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     background-attachment: fixed;
-    padding: 75px;
+    padding: 30px;
 }
 .hero img {
     width: 30%;
@@ -57,10 +57,11 @@ header nav ul li a {
 .hero h2 {
     background-color: pink;
     color: white;
-    display: flex;
+    /* display: flex; */
     padding: 10px;
-    margin-left: 450px;
+    margin-left: 83%;
     border-radius: 15px;
+    text-align: right;
 }
 
 /* apply styles to about me section */
