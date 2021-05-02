@@ -238,19 +238,44 @@ list-style: none;
 @media screen and (max-width: 980px) {
     /* .img-links {
         flex: 0 1 46%; */
-        
+        header {
+            justify-content: center;
+        }
+
     }
   
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
-
+    header {
+        justify-content: center;
     }
+  }
   
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
+    header nav ul li a {
+        font-size: 4vw;
+    }
+    
+    .hero h2 {
+        font-size: 4vw;
+    }
     .work-examples h2 {
             font-size: .5vw;
+    }
+    header h1 {
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    .img-links {
+        flex: 0 70%;
+    
     }
   }
