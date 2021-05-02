@@ -11,7 +11,7 @@ To showcase my work and provide information about myself.
 https://marykate94.github.io/my-portfolio/
 
 ## Screenshot
-![Screenshot](./assets/images/PortfolioScreen Shot.png)
+![PortfolioScreen Shot](https://user-images.githubusercontent.com/79379903/116816910-f78ea500-ab31-11eb-9dcc-227224277822.png)
 
 ## Contribution
 Made by Marykate Smith
